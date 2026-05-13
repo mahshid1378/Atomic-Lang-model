@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomic Language Model - NASA Telemetry Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f9; }
+        header { text-align: center; border-bottom: 2px solid #0b3d91; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: #0b3d91; }
+        h2 { color: #1d4e89; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+        .container { display: flex; gap: 30px; }
+        .main-content { flex: 3; }
+        .sidebar { flex: 2; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        #controls { text-align: center; margin-bottom: 20px; }
+        button { background-color: #0b3d91; color: white; border: none; padding: 12px 24px; font-size: 16px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s; }
+        button:hover { background-color: #1d4e89; }
+        #results-container { margin-top: 20px; }
+        #log-table { width: 100%; border-collapse: collapse; }
+        #log-table th, #log-table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        #log-table th { background-color: #e9ecef; }
+        .anomaly-row { background-color: #ffdddd; font-weight: bold; }
+        #anomalies-list { list-style-type: none; padding-left: 0; }
+        #anomalies-list li { background-color: #fff8e1; border-left: 4px solid #ffc107; margin-bottom: 10px; padding: 15px; border-radius: 4px; }
+        .rule { background-color: #e3f2fd; padding: 15px; border-radius: 5px; margin-bottom: 10px; border: 1px solid #bbdefb; }
+        .rule h4 { margin-top: 0; color: #0d47a1; }
+        .spinner { border: 4px solid #f3f3f3; border-top: 4px solid #0b3d91; border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite; margin: 20px auto; display: none; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        #chart-container { margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Atomic Language Model (ALM)</h1>
+        <p>Demonstration for NASA JPL: Grammatical Anomaly Detection in Mission Telemetry</p>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>Mission Event Log Analysis</h2>
+            <div id="controls">
+                <button id="run-analysis-btn">Analyze Mission Log</button>
+            </div>
+            <div id="spinner" class="spinner"></div>
+            <div id="prob-container" style="display:none;">
+                <h2>Probabilistic Analysis</h2>
+                <p><strong>Mission Surprise Score:</strong> <span id="surprise-score"></span></p>
+                <p><small>This score (average negative log probability) measures how unpredictable the event log was. A lower score indicates routine operations. A high score suggests a developing, non-obvious fault.</small></p>
+            </div>
+            <div id="chart-container" style="display:none;">
+                <h2>Telemetry Visualization</h2>
+                <canvas id="telemetry-chart"></canvas>
+            </div>
+            <div id="results-container">
+                <h3 id="summary"></h3>
+                <table id="log-table">
+                    <thead>
+                        <tr>
+                            <th>Timestamp</th>
+                            <th>Subsystem</th>
+                            <th>Event</th>
+                            <th>Value</th>
+                            <th>Context</th>
+                        </tr>
+                    </thead>
+                    <tbody id="log-body"></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div id="grammar-explanation">
+                <h2>{{ grammar.title }}</h2>
+                <p>{{ grammar.intro }}</p>
+                {% for rule in grammar.rules %}
+                <div class="rule">
+                    <h4>{{ rule.name }}</h4>
+                    <p>{{ rule.desc }}</p>
+                </div>
+                {% endfor %}
+                <p>{{ grammar.conclusion }}</p>
+            </div>
+            <div id="anomalies-container" style="display:none;">
+                    <h2>Detected Anomalies (Ungrammatical Sequences)</h2>
+                    <ul id="anomalies-list"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let telemetryChart = null;
+
+        function renderChart(logData, anomalyDetails) {
+            const ctx = document.getElementById('telemetry-chart').getContext('2d');
+            
+            const labels = logData.map(row => row.timestamp);
+            const values = logData.map(row => row.value);
+            
+            const pointBackgroundColors = logData.map((row, index) => {
+                // Check if the *next* event is the second part of an anomaly pair
+                const isAnomaly = anomalyDetails.some(detail => {
+                    const match = detail.match(/'([^']+)' followed by '([^']+)'/);
+                    if (!match) return false;
+                    const [_, prevEvent, currentEvent] = match;
+                    return index > 0 && logData[index-1].event === prevEvent && row.event === currentEvent;
+                });
+                return isAnomaly ? 'red' : 'rgba(11, 61, 145, 0.6)';
+            });
+
+            if (telemetryChart) {
+                telemetryChart.destroy();
+            }
+
+            telemetryChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Event Value',
+                        data: values,
+                        borderColor: '#0b3d91',
+                        borderWidth: 2,
+                        pointBackgroundColor: pointBackgroundColors,
+                        pointRadius: 5,
+                        fill: false
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: { title: { display: true, text: 'Timestamp' } },
+                        y: { title: { display: true, text: 'Value' } }
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                footer: function(tooltipItems) {
+                                    const index = tooltipItems[0].dataIndex;
+                                    const event = logData[index];
+                                    return `Event: ${event.event}\nSubsystem: ${event.subsystem}`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        document.getElementById('run-analysis-btn').addEventListener('click', function() {
+            const spinner = document.getElementById('spinner');
+            const resultsContainer = document.getElementById('results-container');
+            const logBody = document.getElementById('log-body');
+            const summaryEl = document.getElementById('summary');
+            const anomaliesContainer = document.getElementById('anomalies-container');
+            const anomaliesList = document.getElementById('anomalies-list');
+            const probContainer = document.getElementById('prob-container');
+            const surpriseScoreEl = document.getElementById('surprise-score');
+            const chartContainer = document.getElementById('chart-container');
+
+            // Reset UI
+            spinner.style.display = 'block';
+            resultsContainer.style.display = 'none';
+            anomaliesContainer.style.display = 'none';
+            probContainer.style.display = 'none';
+            chartContainer.style.display = 'none';
+            logBody.innerHTML = '';
+            summaryEl.textContent = '';
+            anomaliesList.innerHTML = '';
+
+            fetch('/get_mission_log')
+                .then(response => response.json())
+                .then(data => {
+                    spinner.style.display = 'none';
+                    resultsContainer.style.display = 'block';
+
+                    if (data.error) {
+                        summaryEl.textContent = `Error: ${data.error}`;
+                        return;
+                    }
+
+                    summaryEl.textContent = data.summary;
+
+                    // Populate log table
+                    data.log_data.forEach(row => {
+                        const tr = document.createElement('tr');
+                        tr.innerHTML = `<td>${row.timestamp}</td><td>${row.subsystem}</td><td>${row.event}</td><td>${row.value}</td><td>${row.context}</td>`;
+                        logBody.appendChild(tr);
+                    });
+
+                    // Populate and show anomalies
+                    if (data.anomalies.length > 0) {
+                        anomaliesContainer.style.display = 'block';
+                        data.anomalies.forEach(anomaly => {
+                            const li = document.createElement('li');
+                            li.textContent = anomaly;
+                            anomaliesList.appendChild(li);
+                        });
+                    }
+
+                    // Populate and show probabilistic score
+                    if (data.surprise_score) {
+                        probContainer.style.display = 'block';
+                        surpriseScoreEl.textContent = data.surprise_score;
+                    }
+
+                    // Render chart
+                    chartContainer.style.display = 'block';
+                    renderChart(data.log_data, data.anomalies);
+                })
+                .catch(error => {
+                    spinner.style.display = 'none';
+                    summaryEl.textContent = `Fetch Error: ${error}`;
+                });
+        });
+    </script>
+
+</body>
+</html>
