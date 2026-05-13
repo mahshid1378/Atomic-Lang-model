@@ -1,0 +1,75 @@
+# Site settings
+title: "Atomic Language Model Blog"
+description: "A blog about the Atomic Language Model - a tiny, verified leap toward accessible AI"
+baseurl: "/atomic-lang-model" # the subpath of your site, e.g. /blog
+url: "https://katostevenmubiru.github.io" # the base hostname & protocol for your site
+
+# Author settings
+author:
+  name: "David Kypuros & ALM Team"
+  email: "davidkypuros@gmail.com"
+  bio: "David Kypuros (Enterprise Neurosystem) - Inventor & Lead; Ugandan Team - Applications & Development"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - atomic-lang-model/
+  - rust-core/
+  - flow/
+  - memory/
+  - claude-flow
+  - target/
+  - "flow/**/*"
+  - "**/.git"
+  - ".gitmodules"
+
+# GitHub Pages settings
+github:
+  repository_url: "https://github.com/KatoStevenMubiru/atomic-lang-model"
+
+# Social links
+social:
+  github: KatoStevenMubiru
+  twitter: # Add your Twitter handle if you have one
+
+# Navigation
+header_pages:
+  - about.md
+  - docs/index.md
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "David Kypuros & ALM Team"
