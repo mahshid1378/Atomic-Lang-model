@@ -1,0 +1,223 @@
+#!/usr/bin/env python3
+"""
+Tiny Probabilistic Language Model
+=================================
+
+A minimal next-token language model that extends recursive grammar with probabilities.
+Fits comfortably in a single file with only standard library dependencies.
+
+Features:
+- Probabilistic CFG with weighted productions
+- Monte Carlo next-token prediction
+- Recursive grammar generation
+- ~120 lines, standard library only
+"""
+
+import random
+from collections import defaultdict
+from typing import List, Tuple, Dict, Optional
+
+# Probabilistic grammar rules for the NASA mission log
+MISSION_RULES = {
+    # The root can be any event, but some are more likely starting points
+    'S': [
+        (0.8, ['STATE']),
+        (0.2, ['COMMAND']),
+    ],
+    # Commands are less frequent than state updates
+    'COMMAND': [
+        (0.4, ['MOTOR_CMD_START']),
+        (0.4, ['MOTOR_CMD_STOP']),
+        (0.1, ['INSTRUMENT_PWR_ON']),
+        (0.1, ['INSTRUMENT_PWR_OFF']),
+    ],
+    # States can transition to other states or to a new command
+    'STATE': [
+        (0.25, ['CURRENT_DRAW']),
+        (0.25, ['WHEEL_RPM']),
+        (0.20, ['TEMP_MOTOR']),
+        (0.20, ['TEMP_INSTRUMENT']),
+        (0.05, ['SPECTROMETER_READ']),
+        (0.05, ['VOLTAGE_SPIKE']), # Spikes are rare
+    ],
+}
+
+class ProbGrammar:
+    """Probabilistic Context-Free Grammar for language modeling."""
+    
+    def __init__(self, rules: Dict[str, List[Tuple[float, List[str]]]] = None):
+        """Initialize with grammar rules, normalizing probabilities."""
+        self.rules = rules or MISSION_RULES
+        self.terminals = self._get_terminals()
+        self.normalize_rules()
+        
+    def _get_terminals(self):
+        """Extract a set of all terminal symbols from the grammar."""
+        terminals = set()
+        for _, productions in self.rules.items():
+            for _, rhs in productions:
+                for symbol in rhs:
+                    # A symbol is terminal if it does not appear as a key on the left-hand side
+                    if symbol not in self.rules:
+                        terminals.add(symbol)
+        return terminals
+
+        
+    def normalize_rules(self):
+        """Normalize rule probabilities to sum to 1.0."""
+        for lhs, productions in self.rules.items():
+            total = sum(weight for weight, _ in productions)
+            if total > 0:
+                self.rules[lhs] = [(weight/total, rhs) for weight, rhs in productions]
+    
+    def sample_expansion(self, symbol: str) -> List[str]:
+        """Sample a production for the given non-terminal symbol."""
+        if symbol not in self.rules:
+            return [symbol]  # Terminal symbol
+            
+        productions = self.rules[symbol]
+        weights = [w for w, _ in productions]
+        chosen = random.choices(range(len(productions)), weights=weights)[0]
+        return productions[chosen][1]
+    
+    def sample_sentence(self, start: str = 'S', max_depth: int = 10) -> str:
+        """Generate a sentence by sampling from the grammar."""
+        def expand(symbol: str, depth: int) -> List[str]:
+            if depth >= max_depth or symbol not in self.rules:
+                return [symbol] if symbol not in self.rules else []
+                
+            expansion = self.sample_expansion(symbol)
+            result = []
+            for sym in expansion:
+                result.extend(expand(sym, depth + 1))
+            return result
+        
+        tokens = expand(start, 0)
+        return ' '.join(tokens)
+    
+    def predict_next(self, prefix: str, k: int = 1000) -> List[Tuple[str, float]]:
+        """
+        Predict next token probabilities given a prefix.
+        
+        Uses Monte Carlo sampling:
+        1. Generate k sentences
+        2. Keep those that start with the prefix
+        3. Return empirical distribution of next tokens
+        """
+        prefix_tokens = prefix.strip().split()
+        prefix_len = len(prefix_tokens)
+        
+        # Count next tokens after prefix
+        next_token_counts = defaultdict(int)
+        valid_samples = 0
+        
+        for _ in range(k):
+            sentence = self.sample_sentence()
+            tokens = sentence.split()
+            
+            # Check if sentence starts with prefix
+            if len(tokens) > prefix_len and tokens[:prefix_len] == prefix_tokens:
+                next_token = tokens[prefix_len]
+                next_token_counts[next_token] += 1
+                valid_samples += 1
+        
+        # Convert to probabilities
+        if valid_samples == 0:
+            return []
+            
+        predictions = [
+            (token, count / valid_samples)
+            for token, count in sorted(next_token_counts.items(), 
+                                     key=lambda x: -x[1])
+        ]
+        
+        return predictions
+    
+    def parse_sentence(self, sentence: str) -> bool:
+        """
+        Check if sentence can be generated by the grammar.
+        Simple recognition - for full parsing use Earley or CYK.
+        """
+        # This is a simplified check - real implementation would use
+        # proper parsing algorithm. For now, just verify tokens exist.
+        tokens = sentence.strip().split()
+        terminals = set()
+        
+        for _, productions in self.rules.items():
+            for _, rhs in productions:
+                for symbol in rhs:
+                    if symbol not in self.rules:
+                        terminals.add(symbol)
+        
+        return all(token in self.terminals for token in tokens)
+
+    def calculate_sentence_probability(self, sentence: str) -> float:
+        """
+        Calculates the probability of a sentence.
+        Note: This is a simplified approach for this demo. A real implementation
+        would use a more robust parsing algorithm (like Earley or CYK) to handle
+        ambiguity. This version assumes a left-to-right derivation.
+        """
+        tokens = sentence.strip().split()
+        if not tokens:
+            return 1.0
+
+        total_log_prob = 0.0
+        
+        # Find a plausible derivation path (this is the simplified part)
+        # We assume each token comes from the most likely non-terminal that can produce it.
+        for token in tokens:
+            best_prob = 1e-9 # Smoothing
+            for lhs, productions in self.rules.items():
+                for weight, rhs in productions:
+                    if rhs == [token]:
+                        # This is a simplification: we're taking the production probability directly.
+                        # A real model would consider the probability of reaching `lhs`.
+                        if weight > best_prob:
+                            best_prob = weight
+            total_log_prob += -best_prob # Use sum of probs as a proxy for log prob for simplicity
+        
+        # Return a score. Lower is better (higher probability).
+        return total_log_prob / len(tokens)
+    
+    def get_rule_probability(self, lhs: str, rhs: List[str]) -> float:
+        """Get the probability of a specific production rule."""
+        if lhs not in self.rules:
+            return 0.0
+            
+        for weight, production in self.rules[lhs]:
+            if production == rhs:
+                return weight
+        return 0.0
+
+
+def demo():
+    """Demonstrate the probabilistic language model."""
+    print("🤖 Tiny Probabilistic Language Model Demo")
+    print("=" * 50)
+    
+    # Initialize model
+    model = ProbGrammar()
+    
+    # Generate sample sentences
+    print("\n📝 Generated sentences:")
+    for i in range(5):
+        sentence = model.sample_sentence()
+        print(f"{i+1}. {sentence}")
+    
+    # Predict next tokens
+    prefix = "the student"
+    print(f"\n🔮 Next token predictions for '{prefix}':")
+    predictions = model.predict_next(prefix, k=3000)
+    
+    for token, prob in predictions[:5]:
+        print(f"  '{token}': {prob:.3f}")
+    
+    # Show total prediction coverage
+    total_prob = sum(prob for _, prob in predictions)
+    print(f"\nTotal probability mass: {total_prob:.3f}")
+    print(f"Unique continuations: {len(predictions)}")
+
+
+if __name__ == "__main__":
+    demo()

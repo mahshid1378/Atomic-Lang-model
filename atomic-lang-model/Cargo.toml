@@ -1,0 +1,30 @@
+[package]
+name = "atomic-lang-model-python"
+version = "0.1.0"
+edition = "2021"
+description = "Python bindings for the Atomic Language Model"
+authors = ["Atomic Language Model Team"]
+license = "MIT"
+repository = "https://github.com/user/atomic-lang-model"
+
+[lib]
+name = "atomic_lang_model_python"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.21.2", features = ["extension-module"], optional = true }
+
+[features]
+default = ["pyo3"]
+pyo3 = ["dep:pyo3"]
+
+
+[dev-dependencies]
+criterion = "0.5"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

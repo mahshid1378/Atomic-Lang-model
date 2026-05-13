@@ -1,0 +1,1 @@
+/Users/katostevenmubiru/Downloads/atomic-lang-model/atomic-lang-model/target/release/atomic-lm: /Users/katostevenmubiru/Downloads/atomic-lang-model/atomic-lang-model/src/bin/main.rs /Users/katostevenmubiru/Downloads/atomic-lang-model/atomic-lang-model/src/lib.rs
