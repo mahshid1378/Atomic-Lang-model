@@ -1,0 +1,3618 @@
+{
+  "syllogism": {
+    "1": [
+      {
+        "question": "All teachers are people. All people are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are objects. All objects are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are objects. All objects are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are people. All people are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are people. All people are useful. Therefore, all teachers are useful.",
+        "ground_truth": "all teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are people. All people are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are objects. All objects are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are objects. All objects are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are objects. All objects are useful. Therefore, all books are useful.",
+        "ground_truth": "all books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are objects. All objects are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are things. All things are valuable. Therefore, all teachers are valuable.",
+        "ground_truth": "all teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are things. All things are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are objects. All objects are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are people. All people are valuable. Therefore, all teachers are valuable.",
+        "ground_truth": "all teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are objects. All objects are valuable. Therefore, all teachers are valuable.",
+        "ground_truth": "all teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are objects. All objects are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are objects. All objects are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are objects. All objects are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are objects. All objects are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are objects. All objects are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are things. All things are valuable. Therefore, all teachers are valuable.",
+        "ground_truth": "all teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are objects. All objects are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are things. All things are valuable. Therefore, all teachers are valuable.",
+        "ground_truth": "all teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are people. All people are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are things. All things are useful. Therefore, all teachers are useful.",
+        "ground_truth": "all teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are useful. Therefore, all books are useful.",
+        "ground_truth": "all books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are useful. Therefore, all books are useful.",
+        "ground_truth": "all books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are people. All people are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are objects. All objects are useful. Therefore, all teachers are useful.",
+        "ground_truth": "all teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are useful. Therefore, all books are useful.",
+        "ground_truth": "all books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are things. All things are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are useful. Therefore, all books are useful.",
+        "ground_truth": "all books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are objects. All objects are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are objects. All objects are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are people. All people are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are objects. All objects are useful. Therefore, all teachers are useful.",
+        "ground_truth": "all teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are things. All things are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are people. All people are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are things. All things are valuable. Therefore, all teachers are valuable.",
+        "ground_truth": "all teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are objects. All objects are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are objects. All objects are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are people. All people are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are objects. All objects are mortal. Therefore, all teachers are mortal.",
+        "ground_truth": "all teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are things. All things are useful. Therefore, all teachers are useful.",
+        "ground_truth": "all teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are objects. All objects are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are mortal. Therefore, all students are mortal.",
+        "ground_truth": "all students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are objects. All objects are useful. Therefore, all teachers are useful.",
+        "ground_truth": "all teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are people. All people are mortal. Therefore, all books are mortal.",
+        "ground_truth": "all books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are objects. All objects are useful. Therefore, all books are useful.",
+        "ground_truth": "all books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are things. All things are useful. Therefore, all books are useful.",
+        "ground_truth": "all books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All teachers are things. All things are useful. Therefore, all teachers are useful.",
+        "ground_truth": "all teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are things. All things are valuable. Therefore, all students are valuable.",
+        "ground_truth": "all students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All students are objects. All objects are useful. Therefore, all students are useful.",
+        "ground_truth": "all students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      },
+      {
+        "question": "All books are objects. All objects are valuable. Therefore, all books are valuable.",
+        "ground_truth": "all books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 1
+      }
+    ],
+    "2": [
+      {
+        "question": "Some books are objects. All objects are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are things. All things are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are things. All things are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are mortal. Therefore, some students are mortal.",
+        "ground_truth": "some students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are people. All people are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are things. All things are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are things. All things are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are mortal. Therefore, some students are mortal.",
+        "ground_truth": "some students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are valuable. Therefore, some students are valuable.",
+        "ground_truth": "some students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are things. All things are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are valuable. Therefore, some students are valuable.",
+        "ground_truth": "some students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are mortal. Therefore, some students are mortal.",
+        "ground_truth": "some students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are mortal. Therefore, some students are mortal.",
+        "ground_truth": "some students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are people. All people are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are valuable. Therefore, some books are valuable.",
+        "ground_truth": "some books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are people. All people are valuable. Therefore, some books are valuable.",
+        "ground_truth": "some books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are valuable. Therefore, some books are valuable.",
+        "ground_truth": "some books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are valuable. Therefore, some books are valuable.",
+        "ground_truth": "some books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are things. All things are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are things. All things are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are people. All people are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are people. All people are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are things. All things are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are mortal. Therefore, some students are mortal.",
+        "ground_truth": "some students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are people. All people are mortal. Therefore, some students are mortal.",
+        "ground_truth": "some students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are things. All things are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are valuable. Therefore, some students are valuable.",
+        "ground_truth": "some students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are people. All people are valuable. Therefore, some students are valuable.",
+        "ground_truth": "some students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are people. All people are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are things. All things are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are people. All people are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are people. All people are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are people. All people are mortal. Therefore, some students are mortal.",
+        "ground_truth": "some students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are people. All people are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are people. All people are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are people. All people are valuable. Therefore, some books are valuable.",
+        "ground_truth": "some books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are valuable. Therefore, some books are valuable.",
+        "ground_truth": "some books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are people. All people are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are mortal. Therefore, some students are mortal.",
+        "ground_truth": "some students are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are valuable. Therefore, some students are valuable.",
+        "ground_truth": "some students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are valuable. Therefore, some teachers are valuable.",
+        "ground_truth": "some teachers are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are people. All people are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are objects. All objects are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are valuable. Therefore, some students are valuable.",
+        "ground_truth": "some students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are objects. All objects are valuable. Therefore, some students are valuable.",
+        "ground_truth": "some students are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are people. All people are valuable. Therefore, some books are valuable.",
+        "ground_truth": "some books are valuable.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are people. All people are mortal. Therefore, some books are mortal.",
+        "ground_truth": "some books are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are people. All people are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some books are people. All people are useful. Therefore, some books are useful.",
+        "ground_truth": "some books are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are objects. All objects are useful. Therefore, some teachers are useful.",
+        "ground_truth": "some teachers are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some teachers are things. All things are mortal. Therefore, some teachers are mortal.",
+        "ground_truth": "some teachers are mortal.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      },
+      {
+        "question": "Some students are things. All things are useful. Therefore, some students are useful.",
+        "ground_truth": "some students are useful.",
+        "task_type": "syllogism",
+        "difficulty": 2
+      }
+    ],
+    "3": [
+      {
+        "question": "No teachers are objects. All mortal are teachers. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are objects. All valuable are books. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All useful are teachers. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All useful are teachers. Therefore, no useful are people.",
+        "ground_truth": "no useful are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All mortal are teachers. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All valuable are teachers. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are people. All useful are students. Therefore, no useful are people.",
+        "ground_truth": "no useful are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All mortal are teachers. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are people. All valuable are students. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All useful are students. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All valuable are teachers. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All useful are teachers. Therefore, no useful are things.",
+        "ground_truth": "no useful are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are people. All valuable are students. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All mortal are teachers. Therefore, no mortal are things.",
+        "ground_truth": "no mortal are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are people. All valuable are books. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All mortal are teachers. Therefore, no mortal are people.",
+        "ground_truth": "no mortal are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All useful are teachers. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All valuable are teachers. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All valuable are students. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All valuable are teachers. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All useful are teachers. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All valuable are teachers. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All valuable are teachers. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All useful are teachers. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All mortal are students. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All valuable are teachers. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All mortal are teachers. Therefore, no mortal are things.",
+        "ground_truth": "no mortal are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are objects. All valuable are books. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All mortal are teachers. Therefore, no mortal are things.",
+        "ground_truth": "no mortal are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are things. All valuable are books. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are things. All valuable are students. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All valuable are students. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All useful are teachers. Therefore, no useful are things.",
+        "ground_truth": "no useful are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All valuable are students. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All useful are students. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are people. All useful are students. Therefore, no useful are people.",
+        "ground_truth": "no useful are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are objects. All valuable are books. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All mortal are teachers. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All valuable are teachers. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All valuable are teachers. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All mortal are teachers. Therefore, no mortal are things.",
+        "ground_truth": "no mortal are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are people. All valuable are students. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All valuable are teachers. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All useful are students. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are objects. All mortal are books. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are things. All valuable are books. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are objects. All mortal are books. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are objects. All useful are books. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All useful are students. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are things. All useful are books. Therefore, no useful are things.",
+        "ground_truth": "no useful are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All useful are teachers. Therefore, no useful are people.",
+        "ground_truth": "no useful are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are things. All mortal are books. Therefore, no mortal are things.",
+        "ground_truth": "no mortal are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are people. All useful are students. Therefore, no useful are people.",
+        "ground_truth": "no useful are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are people. All valuable are students. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All mortal are teachers. Therefore, no mortal are things.",
+        "ground_truth": "no mortal are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All valuable are students. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are people. All mortal are students. Therefore, no mortal are people.",
+        "ground_truth": "no mortal are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All mortal are teachers. Therefore, no mortal are people.",
+        "ground_truth": "no mortal are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are things. All useful are books. Therefore, no useful are things.",
+        "ground_truth": "no useful are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All useful are teachers. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All valuable are teachers. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are objects. All valuable are books. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All useful are students. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All valuable are teachers. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are people. All mortal are books. Therefore, no mortal are people.",
+        "ground_truth": "no mortal are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are things. All valuable are books. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are objects. All valuable are books. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All mortal are teachers. Therefore, no mortal are things.",
+        "ground_truth": "no mortal are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are people. All valuable are books. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All useful are teachers. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All useful are students. Therefore, no useful are objects.",
+        "ground_truth": "no useful are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All mortal are teachers. Therefore, no mortal are things.",
+        "ground_truth": "no mortal are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All mortal are students. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All mortal are teachers. Therefore, no mortal are things.",
+        "ground_truth": "no mortal are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are things. All useful are books. Therefore, no useful are things.",
+        "ground_truth": "no useful are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are things. All useful are books. Therefore, no useful are things.",
+        "ground_truth": "no useful are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All useful are teachers. Therefore, no useful are people.",
+        "ground_truth": "no useful are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All valuable are students. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are people. All useful are books. Therefore, no useful are people.",
+        "ground_truth": "no useful are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All valuable are teachers. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are things. All mortal are books. Therefore, no mortal are things.",
+        "ground_truth": "no mortal are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All mortal are students. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All mortal are teachers. Therefore, no mortal are people.",
+        "ground_truth": "no mortal are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All mortal are teachers. Therefore, no mortal are people.",
+        "ground_truth": "no mortal are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are things. All valuable are students. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All useful are teachers. Therefore, no useful are people.",
+        "ground_truth": "no useful are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All valuable are teachers. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are people. All valuable are students. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All valuable are teachers. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All useful are teachers. Therefore, no useful are people.",
+        "ground_truth": "no useful are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All mortal are teachers. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All valuable are teachers. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are people. All valuable are teachers. Therefore, no valuable are people.",
+        "ground_truth": "no valuable are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are objects. All mortal are students. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No students are things. All useful are students. Therefore, no useful are things.",
+        "ground_truth": "no useful are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are things. All valuable are teachers. Therefore, no valuable are things.",
+        "ground_truth": "no valuable are things.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No books are people. All useful are books. Therefore, no useful are people.",
+        "ground_truth": "no useful are people.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All mortal are teachers. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All valuable are teachers. Therefore, no valuable are objects.",
+        "ground_truth": "no valuable are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      },
+      {
+        "question": "No teachers are objects. All mortal are teachers. Therefore, no mortal are objects.",
+        "ground_truth": "no mortal are objects.",
+        "task_type": "syllogism",
+        "difficulty": 3
+      }
+    ]
+  },
+  "propositional": {
+    "1": [
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then the ground is wet. it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then it's warm. it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then the ground is wet. it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then it's warm. it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then the ground is wet. it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then it's warm. it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then it's warm. it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then it's warm. it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then it's warm. it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then it's warm. it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then it's warm. it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then it's warm. it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then the ground is wet. it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then the ground is wet. it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then the ground is wet. it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then it's warm. it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then the ground is wet. it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then the ground is wet. it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then the ground is wet. it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then the ground is wet. it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then it's warm. it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then it's warm. it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then it's warm. it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then it's warm. it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then it's warm. it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then it's warm. it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then the ground is wet. it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then the ground is wet. it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then the ground is wet. it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then it's warm. it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then the ground is wet. it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then it's warm. it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then it's warm. it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then the ground is wet. it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then I wear a coat. it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's cold then it's warm. it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then it's warm. it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then I wear a coat. it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it rains then I wear a coat. it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 1
+      },
+      {
+        "question": "If it's sunny then the ground is wet. it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 1
+      }
+    ],
+    "2": [
+      {
+        "question": "If it rains then it's warm. Not it's warm. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then it's warm. Not it's warm. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then it's warm. Not it's warm. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then I wear a coat. Not I wear a coat. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then the ground is wet. Not the ground is wet. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then the ground is wet. Not the ground is wet. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then it's warm. Not it's warm. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then I wear a coat. Not I wear a coat. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then the ground is wet. Not the ground is wet. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then it's warm. Not it's warm. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then I wear a coat. Not I wear a coat. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then the ground is wet. Not the ground is wet. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then the ground is wet. Not the ground is wet. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then it's warm. Not it's warm. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then I wear a coat. Not I wear a coat. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then the ground is wet. Not the ground is wet. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then the ground is wet. Not the ground is wet. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then the ground is wet. Not the ground is wet. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then the ground is wet. Not the ground is wet. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then I wear a coat. Not I wear a coat. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then I wear a coat. Not I wear a coat. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then it's warm. Not it's warm. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then it's warm. Not it's warm. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then the ground is wet. Not the ground is wet. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then the ground is wet. Not the ground is wet. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then I wear a coat. Not I wear a coat. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then the ground is wet. Not the ground is wet. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then the ground is wet. Not the ground is wet. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then the ground is wet. Not the ground is wet. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then it's warm. Not it's warm. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then the ground is wet. Not the ground is wet. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then the ground is wet. Not the ground is wet. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's sunny then I wear a coat. Not I wear a coat. Therefore, not it's sunny.",
+        "ground_truth": "not it's sunny.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then I wear a coat. Not I wear a coat. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then it's warm. Not it's warm. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it rains then I wear a coat. Not I wear a coat. Therefore, not it rains.",
+        "ground_truth": "not it rains.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then it's warm. Not it's warm. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      },
+      {
+        "question": "If it's cold then the ground is wet. Not the ground is wet. Therefore, not it's cold.",
+        "ground_truth": "not it's cold.",
+        "task_type": "propositional",
+        "difficulty": 2
+      }
+    ],
+    "3": [
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or the ground is wet. Not it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or the ground is wet. Not it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or I wear a coat. Not it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or it's warm. Not it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or I wear a coat. Not it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or the ground is wet. Not it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or I wear a coat. Not it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or I wear a coat. Not it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or the ground is wet. Not it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or I wear a coat. Not it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or the ground is wet. Not it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or the ground is wet. Not it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or I wear a coat. Not it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or it's warm. Not it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or I wear a coat. Not it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or it's warm. Not it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or the ground is wet. Not it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or the ground is wet. Not it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or the ground is wet. Not it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or the ground is wet. Not it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or the ground is wet. Not it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or the ground is wet. Not it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or it's warm. Not it rains. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or the ground is wet. Not it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or I wear a coat. Not it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or the ground is wet. Not it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or I wear a coat. Not it's sunny. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or the ground is wet. Not it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or the ground is wet. Not it's sunny. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or the ground is wet. Not it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or the ground is wet. Not it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's sunny or it's warm. Not it's sunny. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or it's warm. Not it's cold. Therefore, it's warm.",
+        "ground_truth": "it's warm.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or the ground is wet. Not it rains. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or I wear a coat. Not it's cold. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it's cold or the ground is wet. Not it's cold. Therefore, the ground is wet.",
+        "ground_truth": "the ground is wet.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      },
+      {
+        "question": "it rains or I wear a coat. Not it rains. Therefore, I wear a coat.",
+        "ground_truth": "I wear a coat.",
+        "task_type": "propositional",
+        "difficulty": 3
+      }
+    ]
+  }
+}

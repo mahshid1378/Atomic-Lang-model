@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-07-26 12:51:24",
+  "total_problems": 20,
+  "overall_success_rate": 0.0,
+  "success_by_task": {
+    "syllogism": 0.0,
+    "propositional": 0.0
+  },
+  "success_by_difficulty": {
+    "3": 0.0,
+    "1": 0.0,
+    "2": 0.0
+  },
+  "avg_response_time": 2.7298927307128905e-06,
+  "formal_correctness_rate": 0.0,
+  "plateau_detected": false,
+  "stopping_criteria_met": false
+}
